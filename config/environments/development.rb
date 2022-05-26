@@ -40,7 +40,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   host = 'localhost:3000'                     # ローカル環境
-config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 
   config.action_mailer.perform_caching = false
 
