@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ansi (1.5.0)
     bcrypt (3.1.13)
     bindex (0.8.1)
     bootsnap (1.11.1)
@@ -114,6 +115,11 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.15.0)
+    minitest-reporters (1.5.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     msgpack (1.5.1)
     mysql2 (0.5.4)
     net-imap (0.2.3)
@@ -175,6 +181,7 @@ GEM
     reline (0.3.1)
       io-console (~> 0.5)
     rexml (3.2.5)
+    ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
@@ -225,6 +232,8 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  minitest
+  minitest-reporters
   mysql2 (~> 0.5)
   puma (~> 5.0)
   rails (~> 7.0.3)

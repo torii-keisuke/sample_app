@@ -33,6 +33,8 @@ gem "jbuilder"
 gem "rails-controller-testing"
 
 gem "bcrypt", "3.1.13"
+
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -75,4 +77,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "minitest"
+  gem "minitest-reporters"
 end
