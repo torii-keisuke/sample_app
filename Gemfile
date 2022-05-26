@@ -34,6 +34,9 @@ gem "rails-controller-testing"
 
 gem "bcrypt", "3.1.13"
 
+gem "faker", "2.20.0"
+
+gem "will_paginate", "3.3.1"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
