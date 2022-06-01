@@ -38,6 +38,10 @@ gem "faker", "2.20.0"
 
 gem "will_paginate", "3.3.1"
 
+gem 'active_storage_validations', '0.8.2'
+
+gem 'aws-sdk-s3',              '1.46.0', require: false
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
