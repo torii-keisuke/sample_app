@@ -87,3 +87,7 @@ group :test do
   gem "minitest"
   gem "minitest-reporters"
 end
+
+group :production do
+  gem 'unicorn'
+end
